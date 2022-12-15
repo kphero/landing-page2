@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color:#e5e7eb;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/** HEADER & NAV **/
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    font-size: 18px;
+    gap: 360px;
+    padding: 16px;
+}
+
+.nav {
+    display: flex;
+    gap: 16px;
+}
+
+header p {
+    font-weight: bold;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+/** HERO SECTION **/
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    padding: 100px 0px;
+}
+
+.info {
+    width: 400px;
+}
+
+.hero img {
+    height: auto;
+    width: 400px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color:#F9FAF8;
+}
+
+.hero p {
+    font-size: 18px;
+    color:#e5e7eb;
+}
+
+.button1 {
+    background-color: #3882F6;
+    color:#e5e7eb;
+    border-radius: 10%;
+    padding: 4px 16px;
+    margin-top: 8px;
+    display: inline-block;
+}
+
+/* CARDS SECTION */
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    gap: 50px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.card-container {
+    display: flex;
+    gap: 50px;
+}
+
+.card {
+    width: 150px;
+    text-align: center;
+}
+
+.card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+    border: 4px solid #3882F6;
+}
+
+/* QUOTE SECTION */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 400px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-style:italic;
+    color:#1F2937;
+}
+
+h3 {
+    align-self: flex-end;
+}
+
+/* CALL TO ACTION SECTION */
+
+.cta {
+    display: flex;
+    padding: 100px 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-card {
+    background-color: #3882F6;
+    padding: 50px 100px;
+    border-radius: 5%;
+    display: flex;
+    gap: 50px;
+    width: 1000px;
+}
